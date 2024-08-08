@@ -20,8 +20,8 @@ function calculate() {
 		textResult.style.fontSize = "2em";
 		textResult.textContent = "Type valid numbers!";
 	} else {
-		textResult.style.display = "none";
-		ofNumber.textContent = `${numberValue}`;
+		textResult.innerHTML = "";
+		ofNumber.innerHTML = `${numberValue}`;
 
 		const list = [];
 
